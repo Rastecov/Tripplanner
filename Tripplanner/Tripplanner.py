@@ -8,7 +8,7 @@ def estimated_time_rounded(estimated_time):
   rounded_time = round(estimated_time)
   return rounded_time
 
-estimate = estimated_time_rounded(18.23)
+estimate = estimated_time_rounded(19.45)
 
 def destination_setup(origin, destination, estimated_time, mode_of_transport = "Car"):
   print ("Your trip starts off in", origin)
